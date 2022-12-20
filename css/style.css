@@ -1,0 +1,47 @@
+site-heading-lower
+   body {
+        background-color: red;
+        background-image: "CoverPicture.JPG.icloud";
+        size: 75%;
+    }
+   
+h1
+    div{ background-color: red; 
+    orientation: landscape;
+        size: 100%;
+        font-family: serif
+        font size: 50%%
+        font-weight: 100;
+        height: max-content;
+    }
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-small;
+    color: green;
+    text-align: center;
+    text-align: end;
+}
+
+
+h3 .form-select {
+        display: block;
+        width: 100%;
+        padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+        -moz-padding-start: calc(0.75rem - 3px);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: hotpink;
+        background-color:orange;
+        background-image: "CoverPicture.JPG";
+        background-repeat: no-repeat;
+        background-position: right 0.75rem center;
+        background-size: 16px 12px;
+        border: 1px solid black;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+      }

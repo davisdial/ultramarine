@@ -1,0 +1,260 @@
+
+.body
+{
+    opacity: 1;
+    background-color: bisque !important;
+    width: auto;
+}
+.body2
+{
+    opacity: 1;
+    background-color: black !important;
+    width: auto;
+}
+#wrapper {
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
+}
+.banner2
+{
+    background-color: black;
+    flex-wrap: nowrap;
+}
+.banner
+{
+    background-color: black;
+    flex-wrap: wrap-reverse;
+}
+.banner3
+{
+    background-color: bisque;
+}
+.banner4
+{
+    background-color: bisque;
+}
+.banner5
+{
+    background-image: linear-gradient(orangered,rgb(201, 11, 166));
+}
+
+.heading
+{
+    font-family: 'Gold Year Personal Use';
+    src: url(GoldyearpersonalUseRegular-x3pRR.otf);
+    font-size: 600%;
+    font-weight: 100;
+    letter-spacing: -7px;
+    border: 5px black;
+    line-height: 150px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading2
+{
+    font-family: serif;
+    font-size: 350%;
+    font-weight: 100;
+    line-height: 75px;
+    color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.heading3
+{
+  font-family: serif;
+    font-size: 150%;
+    font-weight: 100;
+    line-height: 30px;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.heading4
+{
+  font-family: serif;
+    font-size: 300%;
+    font-weight: 100;
+    line-height: 40px;
+    color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.myfont2
+{
+  font-family: serif;
+    font-size: 150%;
+    font-weight: 100;
+    line-height: 30px;
+    color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+.myfont
+{
+    font-family: serif;
+    font-size: 20px;
+    color: black;
+}
+.italics
+{
+  font-style: italic;
+}
+
+.bannerfont
+{
+font-family: serif;
+font-size: larger;
+text-align: center;
+font-weight: 200;
+color: rgb(250, 100, 0); !important
+}
+
+.bg-secondary2 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(255, 0, 0), var(--bs-bg-opacity)) !important;
+  }
+
+  .navbar2 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .navbar-expand-lg2 {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .fixed-top2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  .page-section2 .page-section-heading2 {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+
+  .mastheadimg
+  {
+    image-rendering: optimizeQuality;
+    size: 500px;
+  }
+.portfoliobg
+{
+    background-color: black;
+
+}
+
+.masthead2 {
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+  }
+
+.masthead2 .masthead-avatar2 {
+    width: 100px;
+  }
+
+  .cropped
+  {
+    width: 400px
+    height: 400px
+    overflow: hidden
+  }
+
+  .croppedimg
+  {
+    margin: -500px 0px 0px -500px;
+    
+  }
+
+  .logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 0%;
+}
+.coverpicture
+{
+    display: block
+    margin-left: auto
+    margin-right: auto
+    width: 10%
+    height: 0%
+    border: 5px black;
+}
+
+.portfolioheading
+{
+    font-family: 'Gold Year Personal Use';
+    src: url(GoldyearpersonalUseRegular-x3pRR.otf);
+    color: black; 
+    font-size: 200%;
+    font-weight: 200;
+    letter-spacing: 3px;
+    line-height: 150px;
+}
+.portfolioheading2
+{
+    font-family: 'Gold Year Personal Use';
+    src: url(GoldyearpersonalUseRegular-x3pRR.otf);
+    color:  bisque; 
+    font-size: 300%;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 150px;
+}
+.nav-link2 {
+  display: block;
+  font-family: serif;
+  padding: 0.5rem 1rem;
+  color: bisque;
+  font-size: auto;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 1px;
+}
+
+.masthead2 {
+  padding-top: calc(0rem);
+  padding-bottom: 2rem;
+}
+.masthead2 .masthead-heading2 {
+  font-size: 2.75rem;
+  line-height: 2.75rem;
+}
+.masthead2 .masthead-subheading2 {
+  font-size: 1.25rem;
+}
+.masthead2 .masthead-avatar2 {
+  width: 15rem;
+}
+
+.navbar-toggler2 {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
